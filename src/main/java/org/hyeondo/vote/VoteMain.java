@@ -12,7 +12,7 @@ public class VoteMain {
 				VoteService.class);
 		context.close();
 
-		//voteService.addVote();
+		voteService.addVote();
 		voteService.listVotes();
 		context.close();
 	}
